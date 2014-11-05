@@ -1,5 +1,7 @@
 // dds6.c
 //Uses the unified lcd code on the mega8 board
+//Now uses the hd44780_driver library 11.5.2014
+//
 
 #include <avr/io.h>
 #include <stdlib.h>
@@ -7,7 +9,7 @@
 #include <string.h>
 #include <avr/interrupt.h>
 
-#include "unified_lcd_8bit.h"
+#include "hd44780_driver/hd44780.h"
 #include "delay.h"
 
 uint32_t frequency;

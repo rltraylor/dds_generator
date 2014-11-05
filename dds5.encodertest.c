@@ -1,6 +1,6 @@
 // dds5.c
 //Uses the unified lcd code on the mega8 board
-//Has state encoded enocder machine
+// ---> Has experimantal state encoded enocder machine <---
 
 #include <avr/io.h>
 #include <stdlib.h>

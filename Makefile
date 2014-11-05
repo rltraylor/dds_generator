@@ -1,6 +1,6 @@
 PRG            =dds6
 
-OBJ            = $(PRG).o  unified_lcd_8bit.o delay.o
+OBJ            = $(PRG).o  hd44780_driver/hd44780.o delay.o
 
 MCU_TARGET     = atmega8
 #OPTIMIZE       = -O2    # options are 1, 2, 3, s
